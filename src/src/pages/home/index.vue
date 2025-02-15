@@ -58,6 +58,11 @@ export default{
     color                : #131416;
     grid-gap             : 15px;
     letter-spacing       : 1.5px;
+    /* animation            : fadeIn 1s; */
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 .dropdown-option{
     padding        : 5px;

@@ -5,6 +5,7 @@ import pageNotFound from './pagenotfound/pagenotfound.vue'
 // import polaroids from '../components/polaroids.vue'
 // import edit from '../components/edit-v4.vue'
 import home from "./home/index.vue"
+import grid from "./grid/index.vue"
 
 
 /* Define routes and rendering in order of priority */
@@ -14,11 +15,11 @@ const routes = [
     name: 'home',
     component: home
   },
-  // {  
-  //   path: '/portfolio',
-  //   name: 'portfolio',
-  //   component: portfolio
-  // },
+  {  
+    path: '/grid',
+    name: 'grid',
+    component: grid
+  },
   // {  
   //   path: '/polaroids',
   //   name: 'polaroids',

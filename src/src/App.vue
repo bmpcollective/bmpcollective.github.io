@@ -23,7 +23,8 @@ html,body,#app{
   background: var(--bg-color);
   overflow-x: hidden;
   min-height: 100%;
-  height: 100%;
+  height    : 100%;
+  overflow-y: scroll;
 }
 /* dark scroll bar */
 :root {
