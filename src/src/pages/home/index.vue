@@ -74,6 +74,9 @@ export default{
     text-transform : uppercase;
     transition     : color .3s;
 }
+.dropdown-option:hover{
+    cursor    : pointer;
+}
 .dropdown-option-text:hover{
    color      : #9a9ea4;
    cursor     : pointer;
