@@ -67,12 +67,12 @@ export default{
 .dropdown-option{
     padding        : 5px;
     text-transform : uppercase;
-    transition     : color .2s;
+    transition     : color .1s;
     position       : relative;
 }
 .dropdown-option-text{
     text-transform : uppercase;
-    transition     : color .2s;
+    transition     : color .1s;
 }
 .dropdown-option:hover{
     cursor    : pointer;
@@ -92,7 +92,7 @@ export default{
     z-index               : 200;
     grid-template-columns : auto;
     box-shadow            : 0px 1px 1px rgba(0,0,0,.1);
-    transition            : opacity .2s;
+    transition            : opacity .1s;
     opacity               : 0;
 }
 .dropdown-option:hover .submenu{
