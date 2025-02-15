@@ -11,6 +11,11 @@
     </div>
 </template>
 
+<script>
+export default{
+    "title": "THE BMP COLLECTIVE"
+}
+</script>
 <style scoped>
 .home{
     margin         : 0;
@@ -43,5 +48,10 @@
 .dropdown-option{
     padding        : 5px;
     text-transform : uppercase;
+}
+@media (max-width:550px) { 
+    .navbar{
+        display              : none;
+    }
 }
 </style>

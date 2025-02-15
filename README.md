@@ -51,5 +51,6 @@ Connect models and photgraphers, make a space for porfolios and events, with a l
 
 # ffmpeg tips
 ```bash
-ffmpeg -i input.jpg -vf colorkey=white:0.3:0.5 out.png #remove background
+ffmpeg -i input.jpg -vf colorkey=white:0.3:0.5 out.png                                             # remove background
+ffmpeg -i src/public/logo.png -vf "pad=max(iw\,ih):max(iw\,ih):(ow-iw)/2:(oh-ih)/2:white" icon.jpg # pad rectangle to sqaure
 ```

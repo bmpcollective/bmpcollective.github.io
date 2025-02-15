@@ -50,7 +50,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   if (to.matched.at(-1)){
     const title = to.matched.at(-1).components.default.title
-    document.title = title +  " - Cameron's Portfolio"
+    document.title = title ? title : ""
   }
   next()
 })
