@@ -67,12 +67,12 @@ export default{
 .dropdown-option{
     padding        : 5px;
     text-transform : uppercase;
-    transition     : color .3s;
+    transition     : color .2s;
     position       : relative;
 }
 .dropdown-option-text{
     text-transform : uppercase;
-    transition     : color .3s;
+    transition     : color .2s;
 }
 .dropdown-option:hover{
     cursor    : pointer;
@@ -82,7 +82,7 @@ export default{
    cursor     : pointer;
 }
 .submenu{
-    display               : none;
+    display               : grid;
     min-width             : 160px;
     padding               : 10px 0px 5px 0px;
     width                 : 100px;
@@ -92,9 +92,11 @@ export default{
     z-index               : 200;
     grid-template-columns : auto;
     box-shadow            : 0px 1px 1px rgba(0,0,0,.1);
+    transition            : opacity .2s;
+    opacity               : 0;
 }
 .dropdown-option:hover .submenu{
-    display         : grid;
+    opacity               : 1;
 }
 .submenu-item{
     width      : 100%;
