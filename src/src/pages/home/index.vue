@@ -38,16 +38,22 @@ export default{
     display              : grid;
     grid-template-columns:  min-content min-content min-content min-content min-content;
     max-width            : 550px;
-    font-size            : 18px;
+    font-size            : 17px;
     font-family          : canada-type-gibson, Helvetica, sans-serif;
     font-weight          : 200;
     color                : #131416;
     grid-gap             : 10px;
     overflow             : hidden;
+    letter-spacing       : 1.5px;
 }
 .dropdown-option{
     padding        : 5px;
     text-transform : uppercase;
+    transition : color .3s;
+}
+.dropdown-option:hover{
+   color      : #9a9ea4;
+   cursor     : pointer;
 }
 @media (max-width:550px) { 
     .navbar{
