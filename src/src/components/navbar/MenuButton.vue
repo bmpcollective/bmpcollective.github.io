@@ -50,7 +50,7 @@ export default {
 }
 
 .hamburger {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 30px;
     height: 20px;
     position: relative;
@@ -129,10 +129,13 @@ export default {
 }
 .menu-button
 {
-  height: 100%;
-  width: 100%;
-  background-color: blue;
+  display: block;
+  width: 35px;
+  height: 35px;
+  /* background-color: blue; */
   z-index: 99;
+  left: 25px;
+  top: 25px;
 }
 .menu-button:hover{
   background-color: transparent;

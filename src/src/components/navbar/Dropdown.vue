@@ -27,9 +27,9 @@ export default {
         }
     },
     created() {
-        window.addEventListener('resize', this.handleResize);
-        this.handleResize();
-        console.log(this.links)
+        // window.addEventListener('resize', this.handleResize);
+        // this.handleResize();
+        // console.log(this.links)
     },
     methods: {
         handleResize() {
@@ -59,7 +59,7 @@ export default {
     transform-origin: top;
     background-color: white;
     left:0;
-    margin-top: 40px;
+    margin-top: 60px;
     font-family: canada-type-gibson, Helvetica, sans-serif; 
     color: #9a9ea4;
     font-weight: 200;

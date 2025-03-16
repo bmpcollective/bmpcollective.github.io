@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <img src="/logo2.png" class="hero-logo" />
-        <div class="navbar">
+        <div @click="linkTo()" class="navbar">
             <div class="dropdown-option">
                 <span class="dropdown-option-text">Models</span>
                 <div class="submenu">
@@ -28,7 +28,13 @@
 <script>
 
 export default{
-    "title": "THE BMP COLLECTIVE" 
+    "title": "THE BMP COLLECTIVE",
+    methods:{
+        linkTo(){
+            console.log('here')
+            window.location = "/news"
+        }
+    }
 }
 </script>
 <style scoped>
@@ -45,12 +51,12 @@ export default{
 .hero-logo{
     width      : 100%;
     max-width  : 400px;
-    padding    : 50px 50px 40px 50px;
+    padding    : 50px 50px 90px 50px;
     /* z-index    : 1;  */
     /* background-color: red; */
 }
 .navbar{
-    padding              : 0;
+    margin-top           :-90px;
     display              : grid;
     grid-template-columns:  min-content min-content min-content min-content min-content;
     max-width            : 550px;
@@ -109,19 +115,18 @@ export default{
     cursor          : pointer;
 }
 
+/* @media (max-width:550px) {  */
 @media (max-width:550px) { 
     .navbar{
         display              : none;
-    }
-    .dropdown-container-top{
-        display              : grid;
-    }
+    } 
+}
     .home{
-        height: calc(100vh - 120px);
+        height: calc(100vh);
         overflow: hidden;
     }
     .hero-logo{
         z-index    : 1; 
     }
-}
+/* } */
 </style>

@@ -9,54 +9,54 @@
             <br><br>
             Reach out to get your own portfolio on our site, and let us know if you'd like to 
             volunteer for one or more of the following roles
-           <div class="cards">
-                <div class="card">
-                    <div class="role-title">
-                        Event Planner
-                    </div>
-                    <div class="role-description">
-                        Coordinates social events, templates flyers and posts updates on social platforms
-                    </div>
-                    <div class="role-status">
-                        1 Filled, 2 Open
-                    </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="role-title">
+                    Event Planner
                 </div>
-                <!-- <div class="card">
-                    <div class="role-title">
-                        Graphic Designer
-                    </div>
-                    <div class="role-description">
-                        Open
-                    </div>
-                    <div class="role-status">
-                        Open
-                    </div>
+                <div class="role-description">
+                    Coordinates social events, templates flyers and posts updates on social platforms
                 </div>
-                <div class="card">
-                    <div class="role-title">
-                        Chief of Communications
-                    </div>
-                    <div class="role-description">
-                        Filled
-                    </div>
-                    <div class="role-status">
-                        Filled
-                    </div>
-                </div> -->
-                <div class="card">
-                    <div class="role-title">
-                        Website Developer
-                    </div>
-                    <div class="role-description">
-                        Designs and updates website content on github using conventional tools
-                    </div>
-                    <div class="role-status">
-                        1 Filled, 2 Open
-                    </div>
+                <div class="role-status">
+                    1 Filled, 2 Open
                 </div>
             </div>
-            <div style="height: 200px;display:block;"></div>
+            <!-- <div class="card">
+                <div class="role-title">
+                    Graphic Designer
+                </div>
+                <div class="role-description">
+                    Open
+                </div>
+                <div class="role-status">
+                    Open
+                </div>
+            </div>
+            <div class="card">
+                <div class="role-title">
+                    Chief of Communications
+                </div>
+                <div class="role-description">
+                    Filled
+                </div>
+                <div class="role-status">
+                    Filled
+                </div>
+            </div> -->
+            <div class="card">
+                <div class="role-title">
+                    Website Developer
+                </div>
+                <div class="role-description">
+                    Designs and updates website content on github using conventional tools
+                </div>
+                <div class="role-status">
+                    1 Filled, 2 Open
+                </div>
+            </div>
         </div>
+        <div style="height: 200px;display:block;"></div>
 </div>
 </template>
 
@@ -67,16 +67,17 @@
     font-weight: 200;
     font-size: 16px;
     font-style: normal;
-    letter-spacing: .12em;
+    letter-spacing: .1em;
     line-height: 24px;
     padding: 10px;
+    text-align: center;
 }
 .title{
     text-align:center;
 }
 .description{
     text-align: center;
-    letter-spacing: .12em;
+    letter-spacing: .05em;
 
 }
 .cards{

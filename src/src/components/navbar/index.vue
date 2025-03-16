@@ -1,8 +1,8 @@
 <template>
-    <div class="dropdown-container-top">
+    <!-- <div class="dropdown-container-top"> -->
         <MenuButton class="menu" v-on:toggled="showDropdown=!showDropdown"></MenuButton>
-        <Dropdown :show="showDropdown" :links="LinksRight"></Dropdown>
-    </div>
+    <!-- </div> -->
+    <Dropdown :show="showDropdown" :links="LinksRight"></Dropdown>
 </template>
 
 <script>
@@ -57,10 +57,18 @@ export default {
 </script>
 
 <style scoped>
+.menu{
+    /* background-color: red; */
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    margin: 0;
+}
 .dropdown-container-top{
     display: none;
     justify-content: left;
-    margin: 25px;
+    padding: 25px;
+    height: max-content;
 }
 .navbar{
     width: calc(100% - 20px);
@@ -162,18 +170,8 @@ export default {
     font-weight: 8000;
     width: min-content;
 }
-@media (max-width:550px) { 
-    .navbar{
-        display              : none;
-    }
     .dropdown-container-top{
         display              : grid;
     }
-    .home{
-        display: block;
-        height: calc(100% - 70px);
-        overflow: hidden;
-        min-height     : 10px;
-    }
-}
+/* } */
 </style>

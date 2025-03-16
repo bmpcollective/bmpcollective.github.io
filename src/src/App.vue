@@ -1,6 +1,7 @@
 <template> 
   <navbar/>
   <router-view></router-view>
+  <div class="footer">EST 2025</div>
 </template>
 
 <script>
@@ -121,4 +122,11 @@ router-view{
   width: 100%;
 }
 
+.footer{
+  text-align: center;
+  color           : #9a9ea4;
+  font-family: canada-type-gibson, Helvetica, sans-serif; 
+  font-size: 14px;
+  padding: 10px;
+}
 </style>
