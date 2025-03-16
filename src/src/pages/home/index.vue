@@ -126,7 +126,7 @@ export default{
         overflow: hidden;
     }
     .hero-logo{
-        z-index    : 1; 
+        z-index    : 0; 
     }
 /* } */
 </style>

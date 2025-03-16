@@ -56,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div style="height: 200px;display:block;"></div>
+        <div style="height: 140px;display:block;"></div>
 </div>
 </template>
 
@@ -71,6 +71,7 @@
     line-height: 24px;
     padding: 10px;
     text-align: center;
+    padding-top: 70px;
 }
 .title{
     text-align:center;
