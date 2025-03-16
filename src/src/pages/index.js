@@ -6,6 +6,7 @@ import pageNotFound from './pagenotfound/pagenotfound.vue'
 // import edit from '../components/edit-v4.vue'
 import home from "./home/index.vue"
 import grid from "./grid/index.vue"
+import news from "./news/index.vue"
 
 
 /* Define routes and rendering in order of priority */
@@ -19,6 +20,11 @@ const routes = [
     path: '/grid',
     name: 'grid',
     component: grid
+  },
+  {  
+    path: '/news',
+    name: 'news',
+    component: news
   },
   // {  
   //   path: '/polaroids',

@@ -26,16 +26,16 @@
 </template>
 
 <script>
+
 export default{
-    "title": "THE BMP COLLECTIVE"
+    "title": "THE BMP COLLECTIVE" 
 }
 </script>
 <style scoped>
 .home{
     margin         : 0;
-    width          : 100%;
-    height         : 100%;
-    min-height     : 100%;
+    width          : 100vw;
+    height         : 100vh;
     display        : grid;
     align-items    : center;
     align-content  : center;
@@ -44,8 +44,10 @@ export default{
 }
 .hero-logo{
     width      : 100%;
-    max-width  : 600px;
-    padding    : 0px 50px 40px 50px;
+    max-width  : 400px;
+    padding    : 50px 50px 40px 50px;
+    /* z-index    : 1;  */
+    /* background-color: red; */
 }
 .navbar{
     padding              : 0;
@@ -110,6 +112,16 @@ export default{
 @media (max-width:550px) { 
     .navbar{
         display              : none;
+    }
+    .dropdown-container-top{
+        display              : grid;
+    }
+    .home{
+        height: calc(100vh - 120px);
+        overflow: hidden;
+    }
+    .hero-logo{
+        z-index    : 1; 
     }
 }
 </style>
