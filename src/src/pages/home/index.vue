@@ -52,6 +52,7 @@ export default{
     width      : 100%;
     max-width  : 400px;
     padding    : 50px 50px 90px 50px;
+    z-index    : 0; 
     /* z-index    : 1;  */
     /* background-color: red; */
 }
@@ -120,13 +121,13 @@ export default{
     .navbar{
         display              : none;
     } 
-}
-    .home{
-        height: calc(100vh);
-        overflow: hidden;
-    }
     .hero-logo{
-        z-index    : 0; 
+        width      : 100%;
+        max-width  : 330px;
+        padding    : 50px 50px 120px 50px;
+        /* z-index    : 1;  */
+        /* background-color: red; */
     }
+}
 /* } */
 </style>

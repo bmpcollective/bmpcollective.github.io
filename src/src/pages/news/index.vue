@@ -94,24 +94,25 @@
 }
 .card{
     display: grid;
-    width: 280px;
+    width: 300px;
     height: min-content;
     box-shadow: 0px 1px 4px rgba(0,0,0,.2);
     border-radius: 5px;
 }
 .role-title{
-    font-weight: 400;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 5px 10px 5px;
+    font-size: 14px;
 }
 .role-description{
     color: #9a9ea4;
     text-align: left;
-    line-height: 14px;
+    line-height: 16px;
     font-size: 14px;
     padding: 0px 0px 10px 10px;
 }
 .role-status{
     padding: 0px 0px 10px 10px;
-    font-size: 15px;
+    font-size: 13px;
+    color: #5a5d62;
 }
 </style>
